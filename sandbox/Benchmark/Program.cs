@@ -27,9 +27,9 @@ var config = ManualConfig.CreateMinimumViable()
 //BenchmarkRunner.Run<LongMinBenchmark>(config, args);
 //BenchmarkRunner.Run<DoubleMinBenchmark>(config, args);
 //BenchmarkRunner.Run<IntContainsBenchmark>(config, args);
-BenchmarkRunner.Run<SumVsLongSumBenchmark>(config, args);
+//BenchmarkRunner.Run<SumVsLongSumBenchmark>(config, args);
 
-// BenchmarkSwitcher.FromAssembly(Assembly.GetEntryAssembly()!).RunAllJoined(config);
+BenchmarkSwitcher.FromAssembly(Assembly.GetEntryAssembly()!).RunAllJoined(config);
 
 #else
 
